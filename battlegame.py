@@ -17,3 +17,12 @@ human_damage = 20
 dragon_hp = 300
 dragon_damage = 50
 
+
+print("1.Wizard")
+print("2.Elf")
+print("3.Human")
+
+character_choice = input("Choose your character")
+
+
+
