@@ -47,5 +47,26 @@ print(f"HP: {my_hp}")
 print(f"Damage: {my_damage}")
 
 
+#battle loop
+while True:
+    dragon_hp = dragon_hp - my_damage
+    print(f"The {character} damaged the Dragon!!")
+    print(f"The Dragon's HP is now {dragon_hp}\n")
+
+    if dragon_hp <=0:
+        print("The Dragon has lost the battle!")
+        break
+
+    my_hp = my_hp - dragon_damage
+    print(f"The Dragon damaged the {character}")
+    print(f"The {character}'s Hp is now: {my_hp}\n")
+
+    if my_hp <=0:
+        print(f"The {character} has lost the Battle!!")
+        break
+
+
+
+
 
 
