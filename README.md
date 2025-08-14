@@ -2,6 +2,14 @@
 
 A simple text-based fantasy battle game in Python. Choose your character and fight against a randomly selected dragon!
 
+## Contributors
+
+  -Horace Kauna
+  - Cynthia Mugo
+  - Irene Murage
+  - Ian Mabruk
+  - Wayne Muongi
+
 ## Features
 
 - Four playable characters: Wizard, Elf, Human, Dwarf
