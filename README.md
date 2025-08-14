@@ -4,7 +4,7 @@ A simple text-based fantasy battle game in Python. Choose your character and fig
 
 ## Contributors
 
-  -Horace Kauna
+  - Horace Kauna
   - Cynthia Mugo
   - Irene Murage
   - Ian Mabruk
