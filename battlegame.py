@@ -28,21 +28,26 @@ while True:
 
     character_choice = input("Choose your character: ")
 
-    if character_choice=="1":
+    if character_choice=="wizard":
         character=wizard
         my_hp=wizard_hp
         my_damage=wizard_damage
         break
-    elif character_choice == "2":
+    elif character_choice == "elf":
         character=elf
         my_hp=elf_hp
         my_damage=elf_damage
         break
-    elif character_choice=="3":
+    elif character_choice=="human":
          character=human
          my_hp=human_hp
          my_damage=human_damage
          break
+    elif character_choice=="dwarf":
+        character=dwarf
+        my_hp=dwarf_hp
+        my_damage=dwarf_damage
+        break
     else :
         print("Uknown character")
 
@@ -86,7 +91,8 @@ def choose_character():
         "human": {"hp": 150, "attack": 20},
         "dwarf": {"hp": 80, "attack": 50}
     }
-
+    
+     
     while True:
         choice = input("Choose your character (wizard, elf, human, dwarf) or type 'exit' to quit: ").lower()
         if choice == "exit":
